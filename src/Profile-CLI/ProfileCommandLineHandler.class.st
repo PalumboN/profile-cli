@@ -28,6 +28,9 @@ ProfileCommandLineHandler >> informResults: results [
 	(self hasOption: 'closure-value-hits') ifTrue: [
 		result := ClosureValueProfiler instance hits ].
 
+	(self hasOption: 'jit-compile-size') ifTrue: [
+		result := Smalltalk vm totalJITCompileSize ].
+
 	(self hasOption: 'jit-compile-time') ifTrue: [
 		result := Smalltalk vm totalJITCompileTime ].
 
