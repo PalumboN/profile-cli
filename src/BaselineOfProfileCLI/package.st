@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfProfileCLI }
+Package { #name : 'BaselineOfProfileCLI' }
