@@ -1,4 +1,4 @@
-## Profile CLI
+## Profile CLI 🧑‍🔬
 
 This is an extension to the `test` command line handler in Pharo, but profiling data instead of test result.
 
@@ -6,7 +6,7 @@ It is useful to run tests as bechmarks and get specific information about the ru
 
 ------
 
-### How to install?
+### How to install? 🛠️
 
 Cloning this repository or by Metacello:
 
@@ -19,7 +19,7 @@ Metacello new
 
 ------
 
-### How to use?
+### How to use? 👨‍💻
 
 You can run `profile <report> <tests_query>` on the image, where:
 
@@ -31,3 +31,9 @@ Example to run all _Kernel_ tests and get the _FullGC_ count:
 > pharo path/to/pharo.image profile --fullGC-count "Kernel.*"
 9
 ```
+
+------
+
+### Disclaimer ⚠️
+
+Maybe you need an special VM to get some statistics. In case of errors [open an issue](https://github.com/PalumboN/profile-cli/issues/new), please.
